@@ -1,0 +1,14 @@
+.nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.cci img {
+    height: 250px;
+    width: auto;
+}
+
+.racc img {
+    height: 250px;
+    width: auto;
+}
