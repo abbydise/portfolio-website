@@ -1,6 +1,49 @@
+html {
+    font-family:'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    background-color: lightgrey;
+    text-align: center;
+}
+
 .nav li {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.greeting {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.resume button {
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    margin-bottom: 30px;
+}
+
+.resume button:hover {
+    background-color: #59C063;
+    color: white;
+}
+
+.contact {
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    height: 50px;
+    width: 100%;
 }
 
 .cci img {
@@ -12,3 +55,28 @@
     height: 250px;
     width: auto;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    background-color: lightgrey;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
