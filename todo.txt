@@ -3,3 +3,6 @@
 - create script to add an active class to the menu tabs in order to show which tab a user is currently on
 - find some more javascript features to implement
 - finish designing the layout of each page
+- figure out how I want the home page to look
+- figure out how to format and style the skills and jobs pages
+- figure out what to do with the current blank pages (internships and projects)
