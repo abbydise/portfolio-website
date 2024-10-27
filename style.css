@@ -63,10 +63,19 @@ a {
     margin-bottom: 20px;
 }
 
+.resume {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 .resume button {
     border-radius: 8px;
     transition-duration: 0.2s;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
 }
 
 .resume button:hover {
@@ -89,4 +98,20 @@ a {
 .racc img {
     height: 250px;
     width: auto;
+}
+
+.jobs h2 {
+    text-align: center;
+}
+
+.internships h2 {
+    text-align: center;
+}
+
+.volunteer h2 {
+    text-align: center;
+}
+
+.skills h2 {
+    text-align: center;
 }
