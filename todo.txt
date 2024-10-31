@@ -7,3 +7,7 @@
 - figure out how to format and style the skills and jobs pages
 - figure out what to do with internships while i have none
 - create a blog style projects page
+- show more/show less button on jobs
+- figure out how to get the footer to stay at the bottom
+- add a top border to footer
+- make borders on education look better
