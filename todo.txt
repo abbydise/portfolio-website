@@ -4,5 +4,5 @@
 - find some more javascript features to implement
 - add about me to home page
 - figure out what to do with internships while i have none
-- add block style to skills, jobs, internships
+- add block style to jobs, internships
 - figure out how to get the footer to stay at the bottom
