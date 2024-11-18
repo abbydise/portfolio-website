@@ -88,7 +88,7 @@ a {
   text-align: center;
   height: 50px;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   /* border-top: 2px solid black;
   padding-top: 10px; */
@@ -142,4 +142,76 @@ a {
 
 .skills h2 {
   text-align: center;
+}
+
+.languages {
+  border: 1px solid black;
+  display: block;
+  margin: 0 40% 0 40%;
+  justify-items: center;
+}
+
+.languages h4 {
+  margin-top: -11px;
+  background: white;
+  border: 1px solid black;
+  padding: 0 2% 0 2%;
+}
+
+.languages p {
+  margin: 0 0 5% 0;
+}
+
+.technical {
+  border: 1px solid black;
+  margin: 2% 40% 0 40%;
+  display: block;
+  justify-items: center;
+}
+
+.technical h4 {
+  margin-top: -11px;
+  background: white;
+  border: 1px solid black;
+  padding: 0 2% 0 2%;
+}
+
+.technical p {
+  margin: 0 0 5% 0;
+}
+
+.productivity {
+  border: 1px solid black;
+  margin: 2% 40% 0 40%;
+  display: block;
+  justify-items: center;
+}
+
+.productivity h4 {
+  margin-top: -11px;
+  background: white;
+  border: 1px solid black;
+  padding: 0 2% 0 2%;
+}
+
+.productivity p {
+  margin: 0 0 5% 0;
+}
+
+.collaborative {
+  border: 1px solid black;
+  margin: 2% 40% 0 40%;
+  display: block;
+  justify-items: center;
+}
+
+.collaborative h4 {
+  margin-top: -11px;
+  background: white;
+  border: 1px solid black;
+  padding: 0 2% 0 2%;
+}
+
+.collaborative p {
+  margin: 0 0 5% 0;
 }

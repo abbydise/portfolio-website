@@ -2,8 +2,7 @@
 - figure out what color scheme I want the website to have
 - create script to add an active class to the menu tabs in order to show which tab a user is currently on
 - find some more javascript features to implement
-- figure out how I want the home page to look
+- add about me to home page
 - figure out what to do with internships while i have none
-- create a blog style projects page
-- make jobs blog style
+- add block style to skills, jobs, internships
 - figure out how to get the footer to stay at the bottom
