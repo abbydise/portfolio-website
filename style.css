@@ -139,22 +139,29 @@ a {
   text-align: center;
 }
 
-.skills h2 {
+.skills {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+  margin: 5% 0 25% 0;
+}
+
+h2 {
   text-align: center;
 }
 
 .languages {
   border: 1px solid black;
   display: block;
-  margin: 0 40% 0 40%;
   justify-items: center;
+  margin: 0 0 0 10%;
+  padding: 0 2% 0 2%;
 }
 
 .languages h4 {
   margin-top: -11px;
   background: white;
   border: 1px solid black;
-  padding: 0 2% 0 2%;
 }
 
 .languages p {
@@ -163,9 +170,10 @@ a {
 
 .technical {
   border: 1px solid black;
-  margin: 2% 40% 0 40%;
   display: block;
   justify-items: center;
+  margin: 0 0 0 10%;
+  padding: 0 2% 0 2%;
 }
 
 .technical h4 {
@@ -181,9 +189,10 @@ a {
 
 .productivity {
   border: 1px solid black;
-  margin: 2% 40% 0 40%;
   display: block;
   justify-items: center;
+  margin: 0 0 0 15%;
+  padding: 0 2% 0 2%;
 }
 
 .productivity h4 {
@@ -199,9 +208,10 @@ a {
 
 .collaborative {
   border: 1px solid black;
-  margin: 2% 40% 0 40%;
   display: block;
   justify-items: center;
+  margin: 0 10% 0 10%;
+  padding: 0 2% 0 2%;
 }
 
 .collaborative h4 {
