@@ -1,5 +1,7 @@
 html {
   font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(rgb(217, 234, 253), rgb(248, 250, 252));
+  background-repeat: no-repeat;
 }
 
 a {
@@ -8,7 +10,7 @@ a {
 }
 
 .nav {
-  background-color: lightgrey;
+  background-color: #bcccdc;
   text-align: center;
 }
 
@@ -75,10 +77,11 @@ a {
   width: 250px;
   height: 50px;
   font-size: 20px;
+  background-color: #9aa6b2;
 }
 
 .resume button:hover {
-  background-color: #59c063;
+  background-color: #a1eebd;
   color: white;
 }
 
@@ -160,7 +163,7 @@ h2 {
 
 .languages h4 {
   margin-top: -11px;
-  background: white;
+  background: #bcccdc;
   border: 1px solid black;
 }
 
@@ -178,7 +181,7 @@ h2 {
 
 .technical h4 {
   margin-top: -11px;
-  background: white;
+  background: #bcccdc;
   border: 1px solid black;
   padding: 0 2% 0 2%;
 }
@@ -197,7 +200,7 @@ h2 {
 
 .productivity h4 {
   margin-top: -11px;
-  background: white;
+  background: #bcccdc;
   border: 1px solid black;
   padding: 0 2% 0 2%;
 }
@@ -216,7 +219,7 @@ h2 {
 
 .collaborative h4 {
   margin-top: -11px;
-  background: white;
+  background: #bcccdc;
   border: 1px solid black;
   padding: 0 2% 0 2%;
 }
