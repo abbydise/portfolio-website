@@ -1,8 +1,0 @@
-
-- figure out what color scheme I want the website to have
-- create script to add an active class to the menu tabs in order to show which tab a user is currently on
-- find some more javascript features to implement
-- add about me to home page
-- add block style to jobs, internships
-- figure out how to get the footer to stay at the bottom
-- figure out full layout of all the pages
