@@ -92,6 +92,12 @@ h2 {
   padding-top: 10px; */
 }
 
+.education {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+}
+
 .cci img {
 	height: 250px;
 	width: auto;
@@ -103,10 +109,8 @@ h2 {
 }
 
 .drexel {
-	float: left;
-	padding-left: 20px;
+	padding: 0px 10px;
 	border: 2px solid black;
-	padding-right: 10px;
 	height: 725px;
 }
 
@@ -121,10 +125,8 @@ h2 {
 }
 
 .racc {
-	float: right;
-	padding-right: 20px;
+	padding: 0px 10px;
 	border: 2px solid black;
-	padding-left: 20px;
 	height: 725px;
 }
 
