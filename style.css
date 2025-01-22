@@ -145,6 +145,23 @@ h2 {
 	height: 725px;
 }
 
+.experience {
+	justify-self: center;
+	width: 50%;
+	justify-items: center;
+}
+
+.experience li {
+	list-style-type: none;
+	display: inline;
+	padding: 0% 15px;
+	border-bottom: 1px solid black;
+}
+
+.experience h4 {
+	text-align: center;
+}
+
 .skills {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
