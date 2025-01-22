@@ -60,6 +60,17 @@ h2 {
 	padding-left: 1px;
 }
 
+.contact {
+	font-size: 30px;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	/* position: fixed; */
+	bottom: 0;
+	/* border-top: 2px solid black;
+  padding-top: 10px; */
+}
+
 .resume {
 	text-align: center;
 	margin-bottom: 30px;
@@ -81,15 +92,19 @@ h2 {
 	color: white;
 }
 
-.contact {
-	font-size: 30px;
+.about-me {
+	width: 50%;
+	justify-self: center;
+	align-self: center;
+}
+
+.about-me > h2 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.about-me > p {
 	text-align: center;
-	height: 50px;
-	width: 100%;
-	/* position: fixed; */
-	bottom: 0;
-	/* border-top: 2px solid black;
-  padding-top: 10px; */
 }
 
 .education {
