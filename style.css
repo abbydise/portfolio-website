@@ -119,30 +119,46 @@ h2 {
 }
 
 .racc img {
-	height: 250px;
+	height: 175px;
 	width: auto;
+	margin-left: 25%;
 }
 
 .drexel {
 	padding: 0px 10px;
 	border: 2px solid black;
 	height: 725px;
+	width: 400px;
+	margin-left: 250px;
+}
+
+.drexel h3 {
+	text-align: center;
 }
 
 .drexel h4 {
 	margin-bottom: 2px;
 	padding-bottom: 2px;
+	text-align: center;
 }
 
 .drexel h5 {
 	padding-top: 2px;
 	margin-top: 2px;
+	text-align: center;
 }
 
 .racc {
 	padding: 0px 10px;
 	border: 2px solid black;
 	height: 725px;
+	width: 400px;
+	margin-right: 250px;
+}
+
+.racc h3,
+h4 {
+	text-align: center;
 }
 
 .experience {
