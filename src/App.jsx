@@ -125,6 +125,7 @@ function App() {
 						</li>
 					</ul>
 				</div>
+				<button>Download Resume</button>
 			</div>
 			<div class="skills">
 				<h3>Skills</h3>
@@ -266,6 +267,49 @@ function App() {
 						className="w-51 h-51"
 					/>
 				</div>
+			</div>
+			<div class="projects">
+				<div class="project1">
+					<h5>Project 1</h5>
+					<p>Project Description</p>
+				</div>
+				<div class="project2">
+					<h5>Project 2</h5>
+					<p>Project Description</p>
+				</div>
+				<div class="project3">
+					<h5>Project 3</h5>
+					<p>Project Description</p>
+				</div>
+				<button>View All Projects</button>
+			</div>
+			<div class="contact">
+				<form>
+					<input
+						type="text"
+						placeholder="Full Name"
+					/>
+					<input
+						type="email"
+						placeholder="Email"
+					/>
+					<input
+						type="text"
+						placeholder="Subject"
+					/>
+					<textarea placeholder="Message..." />
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+			<div class="other">
+				<img src="phone.svg" />
+				<p>Phone</p>
+				<img src="email.svg" />
+				<p>Email</p>
+				<img src="linkedin.svg" />
+				<p>LinkedIn</p>
+				<img src="github.svg" />
+				<p>GitHub</p>
 			</div>
 		</div>
 	);
