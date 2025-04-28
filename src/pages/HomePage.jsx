@@ -263,7 +263,17 @@ const HomePage = () => {
 									environment
 								</li>
 							</ul>
-							<List>
+							<List
+								sx={{
+									listStyleType: "disc",
+									ml: 5,
+									mt: [-2],
+									"& .MuiListItem-root": {
+										display: "list-item",
+										mb: [-2],
+									},
+								}}
+							>
 								<ListItem>
 									<ListItemText>
 										Utilized Spring, React, and
@@ -298,28 +308,37 @@ const HomePage = () => {
 							<h5>Checkout Coach</h5>
 							<h6>Giant Food Stores | Pottstown, PA</h6>
 							<p>Responsibilities:</p>
-							<ul>
-								<li>
-									Supervise the front end to ensure
-									functions ran smoothly between the
-									cashiers, self-checkout, and the
-									customer service desk
-								</li>
-								<li>
-									Solve issues that arise in the
-									front end from employees and
-									customers including price
-									adjustments, defective products,
-									and monetary concerns
-								</li>
-								<li>
-									Handled counting the money in each
-									till drawer used throughout the day
-									behind the customer service dsek,
-									on the registers, pharmacy, and
-									Beer Garden
-								</li>
-							</ul>
+							<List
+								sx={{
+									listStyleType: "disc",
+									ml: 5,
+									mt: [-2],
+									"& .MuiListItem-root": {
+										display: "list-item",
+										mb: [-2],
+									},
+								}}
+							>
+								<ListItem>
+									<ListItemText>
+										Supervise the front end to
+										ensure functions ran smoothly
+									</ListItemText>
+								</ListItem>
+								<ListItem>
+									<ListItemText>
+										Solve issues that arise in the
+										front end from employees and
+										customers
+									</ListItemText>
+								</ListItem>
+								<ListItem>
+									Handled counting the money in the
+									till drawers used throughout the
+									front end, pharmacy, and Beer
+									Garden
+								</ListItem>
+							</List>
 						</TimelineContent>
 					</TimelineItem>
 					<TimelineItem>
@@ -334,27 +353,40 @@ const HomePage = () => {
 							<h5>Customer Service Associate</h5>
 							<h6>Giant Food Store | Pottstown, PA</h6>
 							<p>Responsibilities:</p>
-							<ul>
-								<li>
-									Listen to customer concerns or
-									issues involving other employees'
-									quality of service, pricing
-									disputes, and technological
-									malfunctions with the Giant app
-								</li>
-								<li>
-									Assisted customer with lottery
-									transactions, product returns, and
-									Western Union money transfers and
-									money orders
-								</li>
-								<li>
-									Communicated effectively with
-									customers of policies of returns,
-									forgetten coupons, and price
-									matching
-								</li>
-							</ul>
+							<List
+								sx={{
+									listStyleType: "disc",
+									ml: 5,
+									mt: [-2],
+									"& .MuiListItem-root": {
+										display: "list-item",
+										mb: [-2],
+									},
+								}}
+							>
+								<ListItem>
+									<ListItemText>
+										Listen to customer
+										concerns/issues
+									</ListItemText>
+								</ListItem>
+								<ListItem>
+									<ListItemText>
+										Assisted customers with
+										lottery transactions, product
+										returns, and Western Union
+										transactions
+									</ListItemText>
+								</ListItem>
+								<ListItem>
+									<ListItemText>
+										Communicated effectively with
+										customers in regards of
+										company policies and
+										procedures
+									</ListItemText>
+								</ListItem>
+							</List>
 						</TimelineContent>
 					</TimelineItem>
 				</Timeline>
