@@ -106,7 +106,7 @@ const HomePage = () => {
 						<TimelineContent>
 							<h5>Drexel University | Philadelphia, PA</h5>
 							<h6>
-								Bachlor of Science in Computer Science
+								Bachelor of Science in Computer Science
 							</h6>
 							<p>GPA: 3.54</p>
 							<p>Awards & Achievements:</p>
@@ -228,7 +228,7 @@ const HomePage = () => {
 			</div>
 			<div
 				id="experience"
-				className="text-left mt-20"
+				className="text-left mt-5"
 			>
 				<h1 className="text-3xl">Experience</h1>
 				<Timeline
@@ -390,6 +390,19 @@ const HomePage = () => {
 						</TimelineContent>
 					</TimelineItem>
 				</Timeline>
+			</div>
+			<div
+				id="resume-button"
+				className="absolute right-0 mt-10 mr-50"
+			>
+				<button className="border p-2 rounded-2xl">
+					<a
+						href="Dise, Abigail.pdf"
+						download
+					>
+						Download my Resume
+					</a>
+				</button>
 			</div>
 			<div
 				id="skills"
