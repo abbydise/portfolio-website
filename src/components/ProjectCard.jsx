@@ -4,7 +4,7 @@ const ProjectCard = ({ project }) => {
 	return (
 		<div className="border rounded-lg p-5">
 			<h1 className="text-2xl underline">{project.title}</h1>
-			<p className="mt-5">{project.description}</p>
+			<p className="mt-5">{project.short_description}</p>
 			<div className="mt-5 flex gap-1 mb-5">
 				{project.technologies.map((item, index) => (
 					<p id={index}>{item}</p>
