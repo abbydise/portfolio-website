@@ -5,28 +5,29 @@ const ProjectCard = ({ project }) => {
 		<div className="border rounded-lg p-5">
 			<h1 className="text-2xl underline">{project.title}</h1>
 			<p className="mt-5">{project.description}</p>
-			<p className="mt-5 flex gap-1">
+			<div className="mt-5 flex gap-1 mb-5">
 				{project.technologies.map((item, index) => (
 					<p id={index}>{item}</p>
 				))}
-			</p>
-			<div clasName="flex">
+			</div>
+			<div clasName="absolute right-0 bottom-0">
 				{project.github && (
-					<div className="flex float-left">
+					<div className="float-left">
 						<img
 							src="github.svg"
-							className="w-8 h-8 float-left pr-2"
+							className="w-6 h-6 float-left mr-2"
 						/>
 						<a
 							href={project.github}
 							target="_blank"
+							className="mr-2"
 						>
 							GitHub
 						</a>
 					</div>
 				)}
 				{project.website && (
-					<div className="flex">
+					<div>
 						<img
 							src="link.png"
 							className="w-5 h-5 float-left"
@@ -34,6 +35,7 @@ const ProjectCard = ({ project }) => {
 						<a
 							href={project.website}
 							target="_blank"
+							className="ml-1"
 						>
 							Live Demo
 						</a>
