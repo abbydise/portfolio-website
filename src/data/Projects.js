@@ -5,7 +5,7 @@ export const projects = {
 			"Flutters is a web application which allows users to find activities to do in their area based on their preferences.",
 		technologies: [
 			"SvelteKit",
-			"Tailwind CSS",
+			"TailwindCSS",
 			"JavaScript",
 			"PostgreSQL",
 		],
@@ -15,7 +15,7 @@ export const projects = {
 	Portfolio: {
 		title: "Personal Portfolio Website",
 		description: "This website!",
-		technologies: ["React", "Tailwind CSS"],
+		technologies: ["React", "TailwindCSS"],
 		github: "https://github.com/abbydise/portfolio-website",
 		website: "https://abbydise.com",
 	},
