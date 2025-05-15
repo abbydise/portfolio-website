@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import ProjectCard from "../components/ProjectCard";
 import { projects } from "../data/projects";
 
@@ -13,6 +15,14 @@ const Projects = () => {
 			<div className="grid grid-cols-3 gap-10 mt-5">
 				<ProjectCard project={projects.Flutters} />
 				<ProjectCard project={projects.Portfolio} />
+			</div>
+			<div className="mt-10 flex justify-center">
+				<Link
+					to="/projects"
+					className="border p-2 rounded-2xl"
+				>
+					View all my Projects Here
+				</Link>
 			</div>
 		</div>
 	);

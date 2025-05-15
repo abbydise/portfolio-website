@@ -2,15 +2,15 @@ import React from "react";
 
 const ProjectCard = ({ project }) => {
 	return (
-		<div className="border rounded-lg p-5">
+		<div className="border rounded-lg p-5 relative">
 			<h1 className="text-2xl underline">{project.title}</h1>
-			<p className="mt-5">{project.short_description}</p>
-			<div className="mt-5 flex gap-1 mb-5">
+			<p className="mt-5 mb-5">{project.short_description}</p>
+			<div className="mt-5 flex gap-1 mb-10">
 				{project.technologies.map((item, index) => (
 					<p id={index}>{item}</p>
 				))}
 			</div>
-			<div clasName="absolute right-0 bottom-0">
+			<div className="flex absolute right-0 bottom-0 m-5">
 				{project.github && (
 					<div className="float-left">
 						<img
