@@ -16,7 +16,7 @@ const Education = () => {
 	return (
 		<div
 			id="education"
-			className="text-left mt-75"
+			className="text-left mt-50"
 		>
 			<h1 className="text-3xl">Education</h1>
 			<Timeline
