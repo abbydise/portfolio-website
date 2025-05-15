@@ -5,6 +5,8 @@ const ContactForm = () => {
 	const form = useRef();
 
 	const sendEmail = (e) => {
+		// TODO: clear the form after submission
+		// TODO: add an alert to show success or failure
 		e.preventDefault();
 
 		emailjs
@@ -25,6 +27,7 @@ const ContactForm = () => {
 	};
 	return (
 		<form
+			// TODO: style the form better
 			ref={form}
 			onSubmit={sendEmail}
 		>

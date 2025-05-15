@@ -1,6 +1,8 @@
 import React from "react";
 
 const ProjectCard = ({ project }) => {
+	// TODO: figure out what to do with the technologies
+	// TODO: finalize the design
 	return (
 		<div className="border rounded-lg p-5 relative">
 			<h1 className="text-2xl underline">{project.title}</h1>

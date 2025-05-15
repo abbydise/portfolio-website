@@ -6,6 +6,8 @@ import ProjectCard from "../components/ProjectCard";
 import { projects } from "../data/projects";
 
 const Projects = () => {
+	// TODO: find a way to limit it to indexes 0-2
+	// TODO: add a placard that says "Coming Soon" if there are less than 3 projects
 	return (
 		<div
 			id="projects"

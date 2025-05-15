@@ -11,6 +11,9 @@ import Skills from "../sections/Skills";
 import Projects from "../sections/Projects";
 
 const HomePage = () => {
+	// TODO: figure out a color scheme
+	// TODO: figure out responsive styling
+	// TODO: add custom style classes to make it easier
 	return (
 		<div>
 			<NavBar />

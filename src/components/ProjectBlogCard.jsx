@@ -1,6 +1,7 @@
 import React from "react";
 
 const ProjectBlogCard = ({ project }) => {
+	// TODO: figure out the styling of it
 	return (
 		<div className="border rounded-lg p-5 relative">
 			<h1 className="text-2xl underline">{project.title}</h1>

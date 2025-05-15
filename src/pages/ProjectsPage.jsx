@@ -6,6 +6,7 @@ import ProjectBlogCard from "../components/ProjectBlogCard";
 import { projects } from "../data/projects";
 
 const ProjectsPage = () => {
+	// TODO: figure out how to organize it
 	return (
 		<div
 			id="projects"

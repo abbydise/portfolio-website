@@ -1,6 +1,9 @@
 import React from "react";
 
 const Skills = () => {
+	// TODO: add a tooltip to each icon
+	// TODO: figure out how to dynamically have them aligned
+	// TODO: figure out the responsiveness of the squares for smaller screens
 	return (
 		<div
 			id="skills"
