@@ -1,0 +1,96 @@
+{
+	"databases": {
+		"MongoDB": {
+			"icon": "../assets/databases/mongodb.svg"
+		},
+		"PostgreSQL": {
+			"icon": "../assets/databases/postgresql.svg"
+		},
+		"MySQL": {
+			"icon": "../assets/databases/sql.svg"
+		}
+	},
+	"frameworks": {
+		"Express.js": {
+			"icon": "../assets/frameworks/expressjs.svg"
+		},
+		"Node.js": {
+			"icon": "../assets/frameworks/nodejs.svg"
+		},
+		"React": {
+			"icon": "..assets/frameworks/react.svg"
+		},
+		"Spring Boot": {
+			"icon": "../assets/frameworks/spring.svg"
+		},
+		"Tailwind CSS": {
+			"icon": "..assets/frameworks/tailwindcss.svg"
+		}
+	},
+	"languages": {
+		"CSS": {
+			"icon": "../assets/languages/css.svg"
+		},
+		"HTML": {
+			"icon": "../assets/languages/html.svg"
+		},
+		"Java": {
+			"icon": "../assets/languages/java.svg"
+		},
+		"JavaScript": {
+			"icon": "../assets/languages/javascript.svg"
+		},
+		"Kotlin": {
+			"icon": "../assets/languages/kotlin.svg"
+		},
+		"Python": {
+			"icon": "../assets/languages/python.svg"
+		},
+		"TypeScript": {
+			"icon": "../assets/languages/typescript.svg"
+		}
+	},
+	"OS": {
+		"MacOS": {
+			"icon": "../assets/os/macOS.svg"
+		},
+		"Windows": {
+			"icon": "../assets/os/windows.svg"
+		}
+	},
+	"tools": {
+		"Amazon Web Services (AWS)": {
+			"icon": "../assets/tools/AWS.svg"
+		},
+		"Command Line Interface (CLI)": {
+			"icon": "../assets/tools/cli.svg"
+		},
+		"Docker": {
+			"icon": "../assets/tools/docker.svg"
+		},
+		"Figma": {
+			"icon": "../assets/tools/figma.svg"
+		},
+		"Git": {
+			"icon": "../assets/tools/git.svg"
+		},
+		"GitHub": {
+			"icon": "../assets/tools/github.svg"
+		},
+		"GitLab": {
+			"icon": "../assets/tools.gitlab.svg"
+		},
+		"IntelliJ IDEA": {
+			"icon": "../assets/tools/intellij.svg"
+		},
+		"Jira": {
+			"icon": "../assets/tools/jira.svg"
+		},
+		"Postman": {
+			"icon": "../assets/tools/postman.svg"
+		},
+		"Visual Studio Code (VSCode)": {
+			"icon": "../assets/tools/vscode.svg"
+		}
+	}
+}
