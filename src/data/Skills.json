@@ -1,96 +1,96 @@
 {
-	"databases": {
+	"Databases": {
 		"MongoDB": {
-			"icon": "../assets/databases/mongodb.svg"
+			"icon": "skills/databases/mongodb.svg"
 		},
 		"PostgreSQL": {
-			"icon": "../assets/databases/postgresql.svg"
+			"icon": "skills/databases/postgresql.svg"
 		},
 		"MySQL": {
-			"icon": "../assets/databases/sql.svg"
+			"icon": "skills/databases/sql.svg"
 		}
 	},
-	"frameworks": {
+	"Frameworks": {
 		"Express.js": {
-			"icon": "../assets/frameworks/expressjs.svg"
+			"icon": "skills/frameworks/expressjs.svg"
 		},
 		"Node.js": {
-			"icon": "../assets/frameworks/nodejs.svg"
+			"icon": "skills/frameworks/nodejs.svg"
 		},
 		"React": {
-			"icon": "..assets/frameworks/react.svg"
+			"icon": "skills/frameworks/react.svg"
 		},
 		"Spring Boot": {
-			"icon": "../assets/frameworks/spring.svg"
+			"icon": "skills/frameworks/spring.svg"
 		},
 		"Tailwind CSS": {
-			"icon": "..assets/frameworks/tailwindcss.svg"
+			"icon": "skills/frameworks/tailwindcss.js"
 		}
 	},
-	"languages": {
+	"Languages": {
 		"CSS": {
-			"icon": "../assets/languages/css.svg"
+			"icon": "skills/languages/css.svg"
 		},
 		"HTML": {
-			"icon": "../assets/languages/html.svg"
+			"icon": "skills/languages/html.svg"
 		},
 		"Java": {
-			"icon": "../assets/languages/java.svg"
+			"icon": "skills/languages.java.svg"
 		},
 		"JavaScript": {
-			"icon": "../assets/languages/javascript.svg"
+			"icon": "skills/languages/javascript.svg"
 		},
 		"Kotlin": {
-			"icon": "../assets/languages/kotlin.svg"
+			"icon": "skills/languages/kotlin.svg"
 		},
 		"Python": {
-			"icon": "../assets/languages/python.svg"
+			"icon": "skills/languages/python.svg"
 		},
 		"TypeScript": {
-			"icon": "../assets/languages/typescript.svg"
+			"icon": "skills/languages/typescript.svg"
 		}
 	},
-	"OS": {
+	"Operating Systems (OS)": {
 		"MacOS": {
-			"icon": "../assets/os/macOS.svg"
+			"icon": "skills/os/macOS.svg"
 		},
-		"Windows": {
-			"icon": "../assets/os/windows.svg"
+		"Windows 11": {
+			"icon": "skills/os/windows.svg"
 		}
 	},
-	"tools": {
+	"Tools": {
 		"Amazon Web Services (AWS)": {
-			"icon": "../assets/tools/AWS.svg"
+			"icon": "skills/tools/AWS.svg"
 		},
 		"Command Line Interface (CLI)": {
-			"icon": "../assets/tools/cli.svg"
+			"icon": "skills/tools/cli.svg"
 		},
 		"Docker": {
-			"icon": "../assets/tools/docker.svg"
+			"icon": "skills/tools/docker.svg"
 		},
 		"Figma": {
-			"icon": "../assets/tools/figma.svg"
+			"icon": "skills/tools/figma.svg"
 		},
 		"Git": {
-			"icon": "../assets/tools/git.svg"
+			"icon": "skills/tools/git.svg"
 		},
 		"GitHub": {
-			"icon": "../assets/tools/github.svg"
+			"icon": "skills/tools/github.svg"
 		},
 		"GitLab": {
-			"icon": "../assets/tools.gitlab.svg"
+			"icon": "skills/tools/gitlab.svg"
 		},
 		"IntelliJ IDEA": {
-			"icon": "../assets/tools/intellij.svg"
+			"icon": "skills/tools/intellij.svg"
 		},
 		"Jira": {
-			"icon": "../assets/tools/jira.svg"
+			"icon": "skills/tools/jira.svg"
 		},
 		"Postman": {
-			"icon": "../assets/tools/postman.svg"
+			"icon": "skills/tools/postman.svg"
 		},
-		"Visual Studio Code (VSCode)": {
-			"icon": "../assets/tools/vscode.svg"
+		"Visual Studio Code (VSCode": {
+			"icon": "skills/tools/vscode.svg"
 		}
 	}
 }
