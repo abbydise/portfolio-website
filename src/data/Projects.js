@@ -1,7 +1,7 @@
 export const projects = [
 	{
 		name: "Flutters",
-		logo: "project-logos/flutters-logo.svg",
+		logo: "project-logos/flutters.svg",
 		description:
 			"A web application that allows users to select preferences in order to find the perfect date idea.",
 		techStack: [
