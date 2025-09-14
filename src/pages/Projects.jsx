@@ -26,6 +26,7 @@ const Projects = () => {
 									}/${tech.name.toLowerCase()}.svg`}
 									alt={tech}
 									className="w-8 h-8"
+									key={tech.name}
 								/>
 							))}
 						</div>
