@@ -6,7 +6,7 @@ export const databases = [
 
 export const frameworks = [
 	{ name: "Express.js", icon: "skills/frameworks/expressjs.svg" },
-	{ name: "Node.js", icon: "skills.frameworks/nodejs.svg" },
+	{ name: "Node.js", icon: "skills/frameworks/nodejs.svg" },
 	{ name: "React", icon: "skills/frameworks/react.svg" },
 	{ name: "Spring Boot", icon: "skills/frameworks/spring.svg" },
 	{ name: "Tailwind CSS", icon: "skills/frameworks/tailwindcss.svg" },
@@ -28,8 +28,8 @@ export const os = [
 ];
 
 export const tools = [
-	{ name: "Amazon Web Services (AWS)", icon: "skills/tools/AWS.svg" },
-	{ name: "Command Line Interface (CLI)", icon: "skills/tools/cli.svg" },
+	{ name: "AWS", icon: "skills/tools/AWS.svg" },
+	{ name: "CLI", icon: "skills/tools/cli.svg" },
 	{ name: "Docker", icon: "skills/tools/docker.svg" },
 	{ name: "Figma", icon: "skills/tools/figma.svg" },
 	{ name: "Git", icon: "skills/tools/git.svg" },
@@ -38,5 +38,5 @@ export const tools = [
 	{ name: "IntelliJ IDEA", icon: "skills/tools/intellij.svg" },
 	{ name: "Jira", icon: "skills/tools/jira.svg" },
 	{ name: "Postman", icon: "skills/tools/postman.svg" },
-	{ name: "Visual Studio Code (VSCode)", icon: "skills/tools/vscode,svg" },
+	{ name: "VSCode", icon: "skills/tools/vscode.svg" },
 ];

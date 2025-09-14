@@ -7,3 +7,7 @@
 	--drexel-blue: #07294d;
 	--drexel-gold: #ffc600;
 }
+
+html {
+	@apply bg-[var(--background-color)] text-[var(--main-color)];
+}

@@ -13,10 +13,12 @@ import Skills from "../components/Skills";
 const Resume = () => {
 	return (
 		<div>
-			<div className="background">
+			<div className="experience flex">
 				<div className="education">
-					<p>Educational Background</p>
-					<Timeline position="alternate">
+					<p className="text-center text-xl">
+						Educational Background
+					</p>
+					<Timeline className="!p-0 !m-0">
 						<TimelineItem>
 							<TimelineOppositeContent>
 								June 2028
@@ -34,35 +36,46 @@ const Resume = () => {
 								</p>
 								<p>GPA: 3.54</p>
 								<p>Awards & Honors:</p>
-								<ul>
-									<li>Drexel Promise Scholarship</li>
-									<li>
-										Dean's List (Fall Quarter
-										2024)
-									</li>
-								</ul>
+								<TimelineContent>
+									<ul>
+										<li>
+											Drexel Promise
+											Scholarship
+										</li>
+										<li>
+											Dean's List (Fall Quarter
+											2024)
+										</li>
+									</ul>
+								</TimelineContent>
 								<p>Relevant Courses:</p>
-								<ul>
-									<li>
-										CS-164: Intro to Computer
-										Science
-									</li>
-									<li>
-										CS-171: Computer Programming 1
-									</li>
-									<li>
-										CS-172L Computer Programming 2
-									</li>
-								</ul>
-								<p>Organizatons:</p>
-								<ul>
-									<li>
-										Women in Computing Society
-										(WiCS)
-									</li>
-									<li>Hack4Impact</li>
-									<li>CyberDragons</li>
-								</ul>
+								<TimelineContent>
+									<ul>
+										<li>
+											CS-164: Intro to Computer
+											Science
+										</li>
+										<li>
+											CS-171: Computer
+											Programming 1
+										</li>
+										<li>
+											CS-172: Computer
+											Programming 2
+										</li>
+									</ul>
+								</TimelineContent>
+								<p>Organizations:</p>
+								<TimelineContent>
+									<ul>
+										<li>
+											Women in Computing
+											Society (WiCS)
+										</li>
+										<li>Hack4Impact</li>
+										<li>CyberDragons</li>
+									</ul>
+								</TimelineContent>
 							</TimelineContent>
 						</TimelineItem>
 						<TimelineItem>
@@ -81,37 +94,44 @@ const Resume = () => {
 								</p>
 								<p>GPA: 3.863</p>
 								<p>Awards & Honors:</p>
-								<ul>
-									<li>Phi Theta Kappa</li>
-									<li>Magna Cum Laude</li>
-								</ul>
+								<TimelineContent>
+									<ul>
+										<li>Phi Theta Kappa</li>
+										<li>Magna Cum Laude</li>
+									</ul>
+								</TimelineContent>
 								<p>Relevant Courses:</p>
-								<ul>
-									<li>WEB-100: Web Design 1</li>
-									<li>
-										IFT-100: Intro to Info Tech
-									</li>
-									<li>
-										IFT-110: Microcomputer
-										Applications
-									</li>
-									<li>
-										NET-100: Intro to Networking
-									</li>
-									<li>
-										PRG-260: Intro to Databases
-									</li>
-								</ul>
+								<TimelineContent>
+									<ul>
+										<li>WEB-100: Web Design 1</li>
+										<li>
+											IFT-100: Intro to Info
+											Tech
+										</li>
+										<li>
+											IFT-110: Microcomputer
+											Applications
+										</li>
+										<li>
+											NET-100: Intro to
+											Networking
+										</li>
+										<li>
+											PRG-260: Intro to
+											Databases
+										</li>
+									</ul>
+								</TimelineContent>
 							</TimelineContent>
 						</TimelineItem>
 					</Timeline>
 				</div>
 				<div className="work">
-					<p>Work Experience</p>
+					<p className="text-center text-xl">Work Experience</p>
 					<Timeline>
 						<TimelineItem>
 							<TimelineOppositeContent>
-								March 2025 - September 2025
+								Mar 2025 - Sept 2025
 							</TimelineOppositeContent>
 							<TimelineSeparator>
 								<TimelineDot />
@@ -132,28 +152,32 @@ const Resume = () => {
 									problems.
 								</p>
 								<p>Key Responsibilites:</p>
-								<ul>
-									<li>
-										Participated in an Agile
-										environment consisting of
-										daily stand-ups, sprints, and
-										retrospectives
-									</li>
-									<p>
-										Implemented improvements
-										throughout multiple
-										interconnected microservices
-										with the use of IntelliJ and
-										Java/Kotlin
-									</p>
-									<p>
-										Researched how the
-										implementation of a web hook
-										to optimize messaging would
-										impact the existing
-										infrastructure
-									</p>
-								</ul>
+								<TimelineContent>
+									<ul>
+										<li>
+											Participated in an Agile
+											environment consisting of
+											daily stand-ups, sprints,
+											and retrospectives
+										</li>
+										<p>
+											Implemented improvements
+											throughout multiple
+											interconnected
+											microservices with the
+											use of IntelliJ and
+											Java/Kotlin
+										</p>
+										<p>
+											Researched how the
+											implementation of a web
+											hook to optimize
+											messaging would impact
+											the existing
+											infrastructure
+										</p>
+									</ul>
+								</TimelineContent>
 							</TimelineContent>
 						</TimelineItem>
 						<TimelineItem>
@@ -178,28 +202,34 @@ const Resume = () => {
 									desk.
 								</p>
 								<p>Key Responsibilites:</p>
-								<ul>
-									<li>
-										Supported and assisted front
-										end team members to ensure
-										efficiency and excellent
-										customer service
-									</li>
-									<p>
-										Coordinated and handled team
-										schedule adjustments to
-										maintain sufficient coverage
-										during unexpected staff
-										shortages{" "}
-									</p>
-									<p>
-										Communicated policies of
-										returns, Western Union money
-										transfers, and lottery tickets
-										professionally and effectively
-										with customers
-									</p>
-								</ul>
+								<TimelineContent>
+									<ul>
+										<li>
+											Supported and assisted
+											front end team members to
+											ensure efficiency and
+											excellent customer
+											service
+										</li>
+										<p>
+											Coordinated and handled
+											team schedule adjustments
+											to maintain sufficient
+											coverage during
+											unexpected staff
+											shortages{" "}
+										</p>
+										<p>
+											Communicated policies of
+											returns, Western Union
+											money transfers, and
+											lottery tickets
+											professionally and
+											effectively with
+											customers
+										</p>
+									</ul>
+								</TimelineContent>
 							</TimelineContent>
 						</TimelineItem>
 						<TimelineItem>
@@ -224,32 +254,39 @@ const Resume = () => {
 									or managers and the customers.
 								</p>
 								<p>Key Responsibilites:</p>
-								<ul>
-									<li>
-										Resolved customer problems
-										surrounding monetary disputes,
-										defective products, and
-										technological malfunctions
-										from the Giant app
-									</li>
-									<li>
-										Processed returns and payments
-										while maintaining the
-										company's policies
-									</li>
-									<li>
-										Served as the voice for
-										customers' concerns in order
-										to improve service and
-										satisfaction
-									</li>
-								</ul>
+								<TimelineContent>
+									<ul>
+										<li>
+											Resolved customer
+											problems surrounding
+											monetary disputes,
+											defective products, and
+											technological
+											malfunctions from the
+											Giant app
+										</li>
+										<li>
+											Processed returns and
+											payments while
+											maintaining the company's
+											policies
+										</li>
+										<li>
+											Served as the voice for
+											customers' concerns in
+											order to improve service
+											and satisfaction
+										</li>
+									</ul>
+								</TimelineContent>
 							</TimelineContent>
 						</TimelineItem>
 					</Timeline>
 				</div>
 			</div>
-			<div className="skills"></div>
+			<div className="skills">
+				<Skills />
+			</div>
 		</div>
 	);
 };
