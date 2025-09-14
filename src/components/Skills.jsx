@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import {
 	Tabs,
 	TabsHeader,
@@ -10,9 +10,15 @@ import {
 import { databases, frameworks, languages, tools } from "../data/Skills";
 
 const Skills = () => {
+	const [tab, setTab] = useState("techstack");
+
 	return (
 		<div className="skills">
-			<Tabs className="justify-self-center">
+			<Tabs
+				className="justify-self-center"
+				value={tab}
+				onChange={(value) => setTab(value)}
+			>
 				<TabsHeader className=" gap-5 justify-self-center border-b-4 text-center">
 					<Tab value="techstack">Tech Stack</Tab>
 					<Tab value="tools">Tools</Tab>

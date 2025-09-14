@@ -1,5 +1,7 @@
 import "./App.css";
 
+import { useState } from "react";
+
 import {
 	Tabs,
 	TabsHeader,
@@ -16,6 +18,8 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 function App() {
+	const [tab, setTab] = useState("about");
+
 	return (
 		<div>
 			<div className="flex">
@@ -24,7 +28,10 @@ function App() {
 				</div>
 				<div className="content w-300 shrink-0">
 					<div className="tabs">
-						<Tabs>
+						<Tabs
+							value={tab}
+							onChange={(value) => setTab(value)}
+						>
 							<div className="flex justify-end mb-5 mt-10 items-center">
 								<TabsHeader className="gap-5">
 									<Tab value="about">About</Tab>
@@ -66,7 +73,7 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<footer className="text-center w-full bg-[var(--accent-color)]">
+			<footer className="text-center w-full bg-[var(--accent-color)] mt-10">
 				<p>
 					&copy; {new Date().getFullYear()} Abigail Dise. All
 					Rights Reserved.
