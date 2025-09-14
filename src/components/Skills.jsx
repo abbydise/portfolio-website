@@ -7,7 +7,7 @@ import {
 	TabPanel,
 } from "@material-tailwind/react";
 
-import { databases, frameworks, languages, os, tools } from "../data/Skills";
+import { databases, frameworks, languages, tools } from "../data/Skills";
 
 const Skills = () => {
 	return (
@@ -63,18 +63,6 @@ const Skills = () => {
 						value="tools"
 						className="grid grid-cols-3"
 					>
-						{os.map(({ name, icon }) => (
-							<div
-								key={name}
-								className="border-4 border-black p-5 m-2 text-center rounded-2xl"
-							>
-								<img
-									src={icon}
-									className="w-10 h-10 justify-self-center"
-								/>
-								{name}
-							</div>
-						))}
 						{tools.map(({ name, icon }) => (
 							<div
 								key={name}

@@ -22,11 +22,6 @@ export const languages = [
 	{ name: "TypeScript", icon: "skills/languages/typescript.svg" },
 ];
 
-export const os = [
-	{ name: "MacOS", icon: "skills/os/macOS.svg" },
-	{ name: "Windows", icon: "skills/os/windows.svg" },
-];
-
 export const tools = [
 	{ name: "AWS", icon: "skills/tools/AWS.svg" },
 	{ name: "CLI", icon: "skills/tools/cli.svg" },
