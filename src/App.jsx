@@ -19,7 +19,7 @@ function App() {
 	return (
 		<div>
 			<div className="flex">
-				<div className="shrink-0">
+				<div className="shrink-0 sticky self-start">
 					<ContactCard />
 				</div>
 				<div className="content w-300 shrink-0">
