@@ -35,7 +35,10 @@ function App() {
 									<Tab value="contact">Contact</Tab>
 								</TabsHeader>
 								<div className="ml-5">
-									<a>
+									<a
+										href="Dise, Abigail.pdf"
+										download={true}
+									>
 										<img
 											src="download.png"
 											className="w-6 h-6"
