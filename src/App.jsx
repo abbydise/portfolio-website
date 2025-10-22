@@ -35,7 +35,7 @@ function App() {
 							<div className="flex justify-end mb-5 mt-10 items-center">
 								<TabsHeader className="gap-5">
 									<Tab value="about">About</Tab>
-									<Tab value="resume">Resume</Tab>
+									{/* <Tab value="resume">Resume</Tab> */}
 									<Tab value="projects">
 										Projects
 									</Tab>
@@ -58,9 +58,9 @@ function App() {
 									<TabPanel value="about">
 										<About />
 									</TabPanel>
-									<TabPanel value="resume">
+									{/* <TabPanel value="resume">
 										<Resume />
-									</TabPanel>
+									</TabPanel> */}
 									<TabPanel value="projects">
 										<Projects />
 									</TabPanel>
