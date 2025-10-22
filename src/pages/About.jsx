@@ -4,6 +4,14 @@ const About = () => {
 	return (
 		<div className="about">
 			<div className="summary">
+				<p className="text-2xl font-bold text-center">
+					RESUME TAB IS CURRENTLY DISABLED DUE TO STYLING ISSUE
+				</p>
+				<p className="text-center text-xl">
+					Resume is still available for download in the
+					navigation bar.
+				</p>
+				<br />
 				<p className="mb-5">
 					Hello! I'm a third year Computer Science studying at
 					Drexel University with a Computer Engineering minor. My
