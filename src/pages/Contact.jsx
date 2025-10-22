@@ -18,12 +18,11 @@ const Contact = () => {
 			)
 			.then(
 				() => {
-					alert("Message sent successfully!");
+					console.log("SUCCESS!");
 					form.current.reset();
 				},
 				(error) => {
 					console.log("FAILED...", error);
-					alert("Failed to send the message, please try again.");
 				}
 			);
 	};
